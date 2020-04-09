@@ -1,0 +1,22 @@
+useState vs useReducer
+
+useState
+
+Scenario
+Type of state: Number, String, Boolean
+Number of state transitions: One or Two
+Related state transitions?: No
+Business Logic: No business Logic
+Local vs global: Local
+
+useReducer
+Scenario
+Type of state: Object or Array
+Number of state transitions: Too many
+Related state transitions?: Yes
+Business Logic: Complex business Logic
+Local vs global: Global 
+
+
+
+
