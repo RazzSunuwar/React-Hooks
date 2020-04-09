@@ -5,6 +5,7 @@ import ComponentA from './components/ComponentA';
 import ComponentB from './components/ComponentB';
 import ComponentC from './components/ComponentC';
 import DataFetchingOne from './components/DataFetchingOne';
+import DataFetchingTwo from './components/DataFetchingTwo';
 
 
 const initialState = 0;
@@ -35,7 +36,8 @@ function App() {
         {/* <ComponentA /> */}
         {/* <ComponentB /> */}
         {/* <ComponentC /> */}
-        <DataFetchingOne />
+        {/* <DataFetchingOne /> */}
+        <DataFetchingTwo />
 
     </div>
      </CountContext.Provider>
